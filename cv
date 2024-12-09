@@ -137,5 +137,12 @@
     </section>
 </div>
 
+<script>
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Bedankt voor je bericht! Ik neem spoedig contact met je op.');
+    });
+</script>
+
 </body>
 </html>
